@@ -14,6 +14,8 @@
 		DD38D52825510B490038C36E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD38D52625510B490038C36E /* LaunchScreen.storyboard */; };
 		DD38D53325510B4A0038C36E /* Swift_tvOSSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38D53225510B4A0038C36E /* Swift_tvOSSliderTests.swift */; };
 		DD38D53E25510B4A0038C36E /* Swift_tvOSSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38D53D25510B4A0038C36E /* Swift_tvOSSliderUITests.swift */; };
+		DD38D55E2551153F0038C36E /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38D55D2551153F0038C36E /* SliderView.swift */; };
+		DD38D566255118860038C36E /* SliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD38D565255118860038C36E /* SliderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DD38D53925510B4A0038C36E /* Swift-tvOSSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-tvOSSliderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD38D53D25510B4A0038C36E /* Swift_tvOSSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_tvOSSliderUITests.swift; sourceTree = "<group>"; };
 		DD38D53F25510B4A0038C36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD38D55D2551153F0038C36E /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		DD38D565255118860038C36E /* SliderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				DD38D51D25510B490038C36E /* AppDelegate.swift */,
 				DD38D51F25510B490038C36E /* ViewController.swift */,
+				DD38D55D2551153F0038C36E /* SliderView.swift */,
+				DD38D565255118860038C36E /* SliderView.xib */,
 				DD38D52125510B490038C36E /* Main.storyboard */,
 				DD38D52425510B490038C36E /* Assets.xcassets */,
 				DD38D52625510B490038C36E /* LaunchScreen.storyboard */,
@@ -229,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD38D52825510B490038C36E /* LaunchScreen.storyboard in Resources */,
+				DD38D566255118860038C36E /* SliderView.xib in Resources */,
 				DD38D52525510B490038C36E /* Assets.xcassets in Resources */,
 				DD38D52325510B490038C36E /* Main.storyboard in Resources */,
 			);
@@ -255,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD38D55E2551153F0038C36E /* SliderView.swift in Sources */,
 				DD38D52025510B490038C36E /* ViewController.swift in Sources */,
 				DD38D51E25510B490038C36E /* AppDelegate.swift in Sources */,
 			);
